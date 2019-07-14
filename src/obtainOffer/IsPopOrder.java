@@ -2,10 +2,13 @@ package obtainOffer;
 
 import java.util.Stack;
 
+/**
+ *
+ */
 public class IsPopOrder {
 
     /**
-     * 栈的压入、弹出序列
+     * 栈的压入、弹出序列是否正确
      */
 
     public static void main(String[] args) {
