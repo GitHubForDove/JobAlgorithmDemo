@@ -1,8 +1,6 @@
 package obtainOffer;
 
 
-import java.util.Arrays;
-
 /**
  *
  *  回溯法
