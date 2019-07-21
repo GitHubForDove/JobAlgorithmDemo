@@ -14,7 +14,7 @@ public class HeapSort {
         // 开始位置是最后一个叶子节点，即最后一个节点的父节点
         int start = (arr.length-1)/2;
 
-        // 调整为大顶堆
+        // 先调整为大顶堆
         for (int i=start; i>=0; i--) {
             maxHeap(arr, arr.length,i);
         }
@@ -24,6 +24,7 @@ public class HeapSort {
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
+            // 递归调用  再次将大顶堆排序
             maxHeap(arr, i, 0);
         }
     }
